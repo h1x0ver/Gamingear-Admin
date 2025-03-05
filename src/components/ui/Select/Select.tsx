@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { forwardRef, Ref } from 'react'
 import cn from '../utils/classNames'
 import ReactSelect from 'react-select'

@@ -1,12 +1,8 @@
-
-
-
 import React, { useState, useEffect } from "react";
 import { useForm, Controller } from "react-hook-form";
-import { Select } from "@/components/ui/select";
-import Input from "@/components/ui/input";
+import { Select } from "../../../../components/ui/Select";
+import Input from "../../../../components/ui/Input";
 import {RichTextEditor} from "@/components/shared";
-import ImageSection from "@/views/concepts/products/ProductForm/components/ImageSection";
 
 const ProductCreate = () => {
     const { control, handleSubmit, reset, setValue } = useForm({
