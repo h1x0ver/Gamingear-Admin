@@ -299,18 +299,6 @@ const conceptsRoute: Routes = [
         },
     },
     {
-        key: 'concepts.account.settings',
-        path: `${CONCEPTS_PREFIX_PATH}/account/settings`,
-        component: lazy(() => import('@/views/concepts/accounts/Settings')),
-        authority: [ADMIN, USER],
-        meta: {
-            header: {
-                title: 'Settings',
-            },
-            pageContainerType: 'contained',
-        },
-    },
-    {
         key: 'concepts.account.activityLog',
         path: `${CONCEPTS_PREFIX_PATH}/account/activity-log`,
         component: lazy(() => import('@/views/concepts/accounts/ActivityLog')),
